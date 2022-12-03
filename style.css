@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 * {
   box-sizing: border-box;
 }
 body {
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 header {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif; 
 }
 .logo {
   width: 80px;
@@ -43,7 +46,7 @@ header {
   padding-right: 60px;
 }
 .home-content h2 {
-  margin-top: -60px;
+  margin-top: -40px;
 }
 header .menu-desktop a {
   text-decoration: none;
@@ -60,19 +63,19 @@ header h1 {
     justify-content: center
   }
   .container {
-    margin-left: 12%;
-    margin-right: 12%;
-    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 40px;
   }
   img {
     max-width: 100%
   }
   
-  .image {
+  .imagereader {
     flex-basis: 60%
   }
   
-  .text {
+  .readerinfo {
     font-size: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -99,43 +102,9 @@ header h1 {
     grid-auto-rows: minmax(100px, auto);
     grid-gap: 20px;
     grid-template-columns: repeat(3, 1fr);
-    
-    //--- JUST VISUAL STYLING BELOW
-      margin: 80%
-      max-width: 800px;
   }
   
-  .product {
-  
-    &__image {
-      background-color: #e5e5e5;
-      display: block;
-      min-height: 200px;
-      width: 100%;
-    }
-    
-    &__name {
-      
-      p {
-        font-family: sans-serif;
-        font-size: 16px;
-        font-weight: bold;
-     
-        a {
-          color: #000000;
-          text-decoration: none;
-        }
-      }
-    }
-    
-    &__price {
-  
-      p {
-        font-family: sans-serif;
-        font-size: 14px;
-      }
-    }
-  }
+
 
 @media screen and (max-width: 520px) {
   /* START of Mobile Menu */
