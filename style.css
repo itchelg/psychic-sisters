@@ -63,9 +63,11 @@ header h1 {
     justify-content: center
   }
   .container {
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 40px;
+    width: 75%;
+    margin: auto
+  }
+  .container {
+    margin-top: 10%;
   }
   img {
     max-width: 100%
@@ -74,19 +76,18 @@ header h1 {
   .imagereader {
     flex-basis: 60%
   }
-  
   .readerinfo {
     font-size: 10px;
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 0px;
+    margin-right: 50px;
   }
   .readerspage {
     background-image: url(images/backgroundreaders.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
-    
+    height: 100%; 
   }
 .collection {
     background-color: pink;
@@ -205,6 +206,19 @@ header h1 {
   }
   .menu-mobile a:hover {
     color: red;
+  }
+  .readerinfo, p {
+    font-size: xx-small;
+  }
+  .readerinfo, h1 {
+    font-size: x-small;
+  }
+  .readerspage {
+    background-size: 100
+  }
+  .container {
+    width: 80%;
+    margin: auto;
   }
 
   .desktop,
