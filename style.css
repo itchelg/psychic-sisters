@@ -144,6 +144,8 @@ img {
 
   .hamburger:before,
   .hamburger:after {
+    top: 50%;
+    left: 50%;
     content: '';
     position: absolute;
     width: 40px;
@@ -157,10 +159,12 @@ img {
 
   .hamburger:before {
     top: -10px;
+    left: 0;
   }
 
   .hamburger:after {
     top: 10px;
+    left: 0;
   }
 
   .icon.active .hamburger {
