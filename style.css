@@ -8,6 +8,7 @@ body {
 }
 header {
   text-align: center;
+  font-size: large;
 }
 .logo {
   width: 80px;
@@ -103,7 +104,19 @@ img {
   grid-gap: 20px;
   grid-template-columns: repeat(3, 1fr);
 }
-
+.button {
+    transition-duration: 0.4s;
+  }
+  
+  .button:hover {
+    background-color: #9ad0f0; 
+    color: rgb(227, 250, 252);
+  }
+  .button {
+    padding: 3px 6px;
+    text-decoration: none;
+    border-radius: 6px;
+  }
 @media screen and (max-width: 520px) {
   /* START of Mobile Menu */
   .nav,
@@ -234,9 +247,12 @@ img {
   }
   .container {
     flex-direction: column;
+    width: 75%;
   }
   .readerspage {
-    background-image: url(images/backgroundreaders.png);
+    background-image: url(images/backgroundmobileread.png);
+    background-size: 100%;
+    background-position: bottom
   }
   .home-content div {
     width: 90%;
